@@ -1,0 +1,12 @@
+{
+  "name": "ignitemusicnews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hectorromo/imn.git",
+  "author": "Hector Romo <info@hectorromo.com>",
+  "license": "MIT",
+  "scripts": {
+	"start": "parcel index.html",
+	"watch": "parcel watch index.html"
+  }
+}

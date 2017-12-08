@@ -1,0 +1,49 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: rgb(30,30,30);
+	overflow: hidden;
+}
+
+
+
+#scene {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.circle {
+	border-radius: 50%;
+	background: green;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
+
+
+#app {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	border: 1px solid red;
+}
+
+.tile {
+	width: 100%;
+	max-width: 300px;
+	box-shadow: 0 0 30px 5px rgba(0,0,0,.7);
+	position: relative;
+}
+
+.tile img {
+	height: auto;
+	width: 100%;
+}
